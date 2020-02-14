@@ -1,0 +1,49 @@
+# ------------------------------------------------------------------------------ #
+# Java defaults (https://github.com/github/gitignore/blob/master/Java.gitignore) #
+# ------------------------------------------------------------------------------ #
+# Reference: https://github.com/github/gitignore/blob/master/Java.gitignore
+*.class
+# Package Files #
+*.jar
+*.war
+*.ear
+
+
+# ------------------------------------------------------------------------------------------- #
+# Eclipse-specific (https://github.com/github/gitignore/blob/master/Global/Eclipse.gitignore) #
+# ------------------------------------------------------------------------------------------- #
+.metadata
+# Version control some bin directories for my own scripts
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+
+# Recommended for Maven based projects
+#.project
+#.classpath
+
+
+# ---------------------------------------------------------------------------- #
+#         Mac OS                                                               #
+# ---------------------------------------------------------------------------- #
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+
+# ---------------------------------------------------------------------------- #
+#       Mulesoft Studio                                                        #
+# ---------------------------------------------------------------------------- #
+target/
+.mule/
+
+
+*.log
+**/env/local/
+reports/
