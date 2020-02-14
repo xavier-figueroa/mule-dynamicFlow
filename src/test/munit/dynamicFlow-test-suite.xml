@@ -9,6 +9,10 @@
 		http://www.mulesoft.org/schema/mule/munit-tools  http://www.mulesoft.org/schema/mule/munit-tools/current/mule-munit-tools.xsd">
 	<munit:config name="test-test-suite.xml" />
 	<munit:test name="test-test-suite-testFlowTest" doc:id="f691bae0-5522-4d32-9f42-da710949ce77" description="Test">
+		<munit:enable-flow-sources >
+			<munit:enable-flow-source value="flow1" />
+			<munit:enable-flow-source value="flow2" />
+		</munit:enable-flow-sources>
 		<munit:execution >
 			<flow-ref doc:name="Flow-ref to testFlow" doc:id="cc066296-7644-458a-9f45-9550e9626f5f" name="testFlow"/>
 		</munit:execution>
